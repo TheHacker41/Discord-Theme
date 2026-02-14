@@ -7,8 +7,8 @@
 @import url('https://thehacker41.github.io/Discord-Theme/basic.css');
 :root {
   --background: url('https://i.imgur.com/oZF6p5T.jpeg');
-  --backgroundsize: 100%;
-  --backgroundposition: top left;
+  --backgroundsize: cover;
+  --backgroundposition: center;
   --backgroundblur: 0px;
   --popout: var(--background);
   --popoutsize: var(--backgroundsize);

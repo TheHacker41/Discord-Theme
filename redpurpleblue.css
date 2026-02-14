@@ -1,10 +1,15 @@
+/**
+ * @name Red Purple Blue Theme
+ * @author Hacker41
+ * @description Red Blue Purple Theme Made By Hacker41
+*/
 @import url('https://raw.githubusercontent.com/TheHacker41/Discord-Theme/refs/heads/main/basic.css');
 :root {
   --background: url('https://i.imgur.com/Rl76c8p.png');
   --backgroundsize: cover;
   --backgroundposition: center;
   --backgroundblur: 90px;
-  --popout: url('https://i.imgur.com/Rl76c8p.png');
+  --popout: var(--background);
   --popoutsize: var(--backgroundsize);
   --backgroundposition: center;
   --popoutblur: 0px;
@@ -29,7 +34,3 @@
   --backdropblur: 0px;
   --version1_0_5: none;
 }
-
-/* Any custom CSS below here */
-
-

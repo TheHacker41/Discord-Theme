@@ -1,10 +1,10 @@
 /**
  * @name Main Theme
  * @author Hacker41
- * @version 1.0.5
  * @description Main Discord Theme Used By Hacker41
 */
-@import url('https://thehacker41.github.io/Discord-Theme/basic.css');
+@import url('https://raw.githubusercontent.com/TheHacker41/Discord-Theme/refs/heads/main/basic.css');
+@import url('https://raw.githubusercontent.com/TheHacker41/Discord-Theme/refs/heads/main/userpanel.css');
 :root {
   --background: url('https://i.imgur.com/oZF6p5T.jpeg');
   --backgroundsize: cover;

@@ -1,4 +1,10 @@
+/**
+ * @name Blue Theme
+ * @author Hacker41
+ * @description Blue Discord Theme Made By Hacker41
+*/
 @import url('https://raw.githubusercontent.com/TheHacker41/Discord-Theme/refs/heads/main/basic.css');
+@import url('https://raw.githubusercontent.com/TheHacker41/Discord-Theme/refs/heads/main/userpanel.css');
 :root {
   --background: url('https://i.imgur.com/PXJKOVB.jpeg');
   --backgroundsize: cover;
@@ -17,7 +23,7 @@
   --guildchanneltransparency: 0;
   --chatinputtransparency: 0;
   --memberlisttransparency: 0.12;
-  --font: Whitney;
+  --font: "gg sans", "Noto Sans";
   --textbrightest: 255,255,255;
   --textbrighter: 222,222,222;
   --textbright: 200,200,200;

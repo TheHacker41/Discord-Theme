@@ -441,7 +441,6 @@ body,											/* body													*/
 	background-color: rgba(var(--transparencycolor_v), calc(var(--guildchanneltransparency_v) * 2));
 	mask: unset !important;
 	margin-bottom: 0;
-	padding-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs) - 16px);
 }
 .unreadMentionsIndicatorBottom_ef3116 {
 	padding-bottom: calc(var(--space-xs, 8px) + (calc(var(--custom-app-panels-height, 0) + var(--space-xs))));
@@ -7759,31 +7758,6 @@ html:only-child > head + body div.app_a3002d > div.app__160d8::before {
 	left: calc(-20px - (50% - calc(var(--custom-guild-list-width) + var(--space-8)))) !important;
 	background-image: unset !important;
 	margin-left: calc(50% - calc(var(--custom-guild-list-width) + var(--space-8)));
-}
-html:only-child > head + body div.bar_c38106 > div.title_c38106::before {
-	content: "" !important;
-	background: rgba(var(--textbrightest_v), .4) !important;
-	width: 55px !important;
-	height: 19px !important;
-	display: inline !important;
-	position: absolute !important;
-	top: unset !important;
-	left: unset !important;
-	bottom: unset !important;
-	right: unset !important;
-	opacity: 1 !important;
-	padding: 0 !important;
-	margin: 0 !important;
-	visibility: visible !important;
-	transform: unset !important;
-	animation: unset !important;
-}
-html:only-child > head + body div.bar_c38106 > div.title_c38106::before {
-	width: 70px !important;
-	height: 36px !important;
-	display: inline !important;
-	position: fixed !important;
-	left: 10px !important;
 }
 html:only-child > head + body div.bar_c38106:hover > div.title_c38106::after {
 	opacity: 1 !important;

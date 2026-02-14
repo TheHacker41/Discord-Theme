@@ -1,10 +1,9 @@
 /**
- * @name Blue Theme
+ * @name Blue Glass Theme
  * @author Hacker41
- * @description Blue Discord Theme Made By Hacker41
+ * @description Blue Glass Discord Theme Made By Hacker41
 */
 @import url('https://raw.githubusercontent.com/TheHacker41/Discord-Theme/refs/heads/main/basic.css');
-@import url('https://raw.githubusercontent.com/TheHacker41/Discord-Theme/refs/heads/main/userpanel.css');
 :root {
   --background: url('https://i.imgur.com/yzshs2D.jpeg');
   --backgroundsize: cover;

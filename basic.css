@@ -451,7 +451,7 @@ body,											/* body													*/
 	padding-top: 4px;
 }
 #app-mount .sidebar__5e434:after {
-	display: block !important;
+	display: none !important;
 	background-color: rgba(var(--transparencycolor_v), calc(var(--guildchanneltransparency_v) * 2));
 	width: var(--custom-guild-list-width);
 	height: calc(var(--custom-app-panels-height, 0) + var(--space-xs));

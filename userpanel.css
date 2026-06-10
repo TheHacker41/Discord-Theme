@@ -80,7 +80,7 @@
   transform:none;
   margin-left:15px;
 }
-.hoverRoll__0263c.forceHover__0263c:not(.disabled__0263c) .default__0263c, .hoverRoll__0263c:hover:not(.disabled__0263c) .default__0263c {
+.hoverRoll__0263c:not(.rtcConnectionStatusLabel__06d62).forceHover__0263c:not(.disabled__0263c) .default__0263c, .hoverRoll__0263c:hover:not(.disabled__0263c):not(.rtcConnectionStatusLabel__06d62) .default__0263c {
   display:block !important;
   transform:none !important;
   opacity:1 !important;
@@ -137,4 +137,12 @@ nav.wrapper_ef3116.guilds__5e434.theme-dark.theme-darker.images-dark {
 }
 .animatedText_d79086 {
   display:none;
+}
+.rtcConnectionStatusLabel__06d62:not(:hover) .hovered__0263c {
+    display:none !important;
+    opacity: 0 !important;
+}
+.rtcConnectionStatusLabel__06d62:hover .default__0263c {
+    display:none !important;
+    opacity: 0 !important;
 }
